@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Weave your e-commerce experience | Commerce Weavers</title>
+        <meta
+            property="og:title"
+            content="Elliot - Event Ticketing Engine (E.T.E)"
+        />
+        <meta
+            name="description"
+            content="Discover the Extra-Terrestrial phenomenon. The only event
+            ticketing system in our universe that is not a closed platform
+            but an open and friendly creation (Exactly like the beloved
+            alien E.T.!)."
+        />
+        <meta
+            property="og:description"
+            content="Discover the Extra-Terrestrial phenomenon. The only event
+            ticketing system in our universe that is not a closed platform
+            but an open and friendly creation (Exactly like the beloved
+            alien E.T.!)."
+        />
+        <meta property="og:image" content="/assets/social.png" />
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    fontFamily: {
+                        sans: ["Plus Jakarta Sans", "sans-serif"],
+                    },
+                    screens: {
+                        sm: "480px",
+                        md: "768px",
+                        xl: "1140px",
+                    },
+                    extend: {
+                        fontFamily: {
+                            head: ["Bricolage Grotesque", "sans-serif"],
+                        },
+                    },
+                },
+            };
+        </script>
+
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                background-image: url("/assets/bg-opt.png");
+                background-position: center top;
+                background-repeat: no-repeat;
+            }
+
+            strong {
+                color: white;
+            }
+
+            .custom-gradient-bg {
+                border: 1px solid rgba(255, 255, 255, 0.075);
+                box-sizing: border-box;
+                background: linear-gradient(
+                    180deg,
+                    rgba(0, 0, 0, 0.15) 0%,
+                    rgba(102, 102, 102, 0.15) 100%
+                );
+                backdrop-filter: blur(2.5px);
+                border-radius: 20px;
+            }
+
+            .custom-gradient-text {
+                background: linear-gradient(180deg, #fd986b 0%, #f47965 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+            }
+
+            .plus-jakarta-sans {
+                font-family: "Plus Jakarta Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+            }
+
+            .bricolage-grotesque {
+                font-family: "Bricolage Grotesque", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+            }
+        </style>
+    </head>
+    <body class="bg-black text-white text-lg leading-relaxed">
+        <!-- Logo -->
+        <div class="flex justify-center pt-16 md:pt-32 pb-16 md:pb-28">
+            <a href="/">
+                <img src="/assets/elliot-logo.svg" alt="Elliot logo" />
+            </a>
+        </div>
+
+        <!-- Hero -->
+        <div class="container mx-auto text-center md:max-w-[60rem] mb-40">
+            <h1 class="text-6xl md:text-7xl xl:text-8xl font-head mb-16">
+                <div class="font-bold">Event Ticketing Engine</div>
+                <div class="font-extralight">(E.T.E.)</div>
+            </h1>
+
+            <div
+                class="md:text-2xl mb-12 md:mb-24 px-8 md:px-0 md:leading-relaxed"
+            >
+                Discover the Extra-Terrestrial phenomenon. The only event
+                ticketing system in our universe that is not a closed platform
+                but an open and friendly creation (Exactly like the beloved
+                alien E.T.!).
+            </div>
+
+            <!-- Hi -->
+            <img
+                src="/assets/elliot-alien-hi.png"
+                alt="Elliot Hi"
+                class="mx-auto"
+            />
+            <a
+                href="#contact"
+                class="bg-white hover:bg-[#862D3F] text-black hover:text-white md:text-2xl font-medium py-4 px-8 md:px-24 rounded-lg transition-colors duration-100"
+            >
+                Meet the alien
+            </a>
+        </div>
+
+        <!-- About -->
+        <div class="relative md:overflow-hidden">
+            <div
+                class="container mx-auto md:flex px-8 md:px-0 flex-row gap-24 mb-36"
+            >
+                <div class="basis-1/2">
+                    <div class="md:absolute right-[52%] top-[4rem]">
+                        <img src="/assets/orbit.png" alt="Elliot Orbit" />
+                    </div>
+                </div>
+                <div class="basis-1/2 text-zinc-300">
+                    <div class="mb-12">
+                        <strong
+                            >Elliot is a set of powerful extensions to
+                            Sylius</strong
+                        >
+                        - the open-source e-commerce framework widely
+                        appreciated for its flexibility. This means you can
+                        easily build a unique ticketing experience for your fans
+                        and guests. 
+                    </div>
+                    <div class="mb-12">
+                        <strong
+                            >Benefit from all the power of standardized
+                            e-commerce technology</strong
+                        >
+                        - manage products, process orders, set promotions, and
+                        configure all your online store details. Mix selling
+                        tickets with other items like your conference’s merch,
+                        and more.
+                    </div>
+                    <div class="mb-12">
+                        Exactly like <strong>Sylius</strong>,
+                        <strong>Elliot</strong> is 100% based on
+                        <strong>Symfony</strong> - a free, open-source,
+                        high-performance <strong>PHP framework</strong> to build
+                        web applications, and APIs (with
+                        <strong>API Platform</strong>!). It’s free, robust,
+                        fast, secure, and loved by developers.
+                    </div>
+                    <div class="mb-12">
+                        Coming from space, E.T.E is familiar with clouds. So is
+                        his friend <strong>Elliot</strong>, ready to fly with
+                        you both as PaaS based on <strong>Platform.sh</strong>,
+                        and simply as a package of cosmic code shipped with
+                        <strong>Private Packagist</strong>.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modules -->
+        <div class="container mx-auto mb-24">
+            <h2
+                class="text-4xl md:text-5xl xl:text-6xl font-head font-bold text-center mb-8 md:mb-12 xl:mb-20"
+            >
+                3 modules to rule it all!
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="pt-12 px-14 custom-gradient-bg">
+                    <h3 class="text-3xl mb-8">Call for Papers</h3>
+                    <div class="max-w-[25rem] text-zinc-500 mb-8">
+                        form and review UI, including: speaker’s data, abstract,
+                        suggested talk duration, type, and other preferences
+                    </div>
+                    <img
+                        src="/assets/elliot-alien-papers.png"
+                        alt="Elliot call for papers"
+                        class="mx-auto"
+                    />
+                </div>
+                <div class="pt-12 px-14 custom-gradient-bg">
+                    <h3 class="text-3xl mb-8">Page Builder</h3>
+                    <div class="max-w-[25rem] text-zinc-500 mb-8">
+                        based on UI elements with rich content, enhanced with
+                        agenda edition (hours, rooms, topics, tracks, speakers,
+                        abstracts, etc.)
+                    </div>
+                    <img
+                        src="/assets/elliot-alien-blocks.png"
+                        alt="Elliot page builder"
+                        class="mx-auto"
+                    />
+                </div>
+                <div class="md:col-span-2 py-12 px-14 custom-gradient-bg">
+                    <h3 class="text-3xl mb-8">Ticket Sales & Management</h3>
+                    <div class="text-zinc-500 mb-12">
+                        consisting of the following extensions:
+                    </div>
+
+                    <!-- Extensions -->
+                    <div
+                        class="grid md:grid-cols-3 gap-y-12 gap-x-16 text-zinc-500"
+                    >
+                        <div>
+                            <img
+                                class="mb-5"
+                                src="/assets/icon-cart.svg"
+                                alt="Cart icon"
+                            />
+                            <span class="text-white">cart</span> - ability to
+                            provide ticket owners (yes, multiple) data like
+                            name, company, and diet preference
+                        </div>
+
+                        <div>
+                            <img
+                                class="mb-5"
+                                src="/assets/icon-ticket.svg"
+                                alt="Ticket icon"
+                            />
+                            <span class="text-white">tickets are products</span>
+                            in Sylius but also have a separate back office where
+                            you can browse, and edit them, incl. changing the
+                            owner
+                        </div>
+
+                        <div>
+                            <img
+                                class="mb-5"
+                                src="/assets/icon-merch.svg"
+                                alt="Merch icon"
+                            />
+                            <span class="text-white">sale of merchandise</span>
+                            together with different, date and type-related tiers
+                            of tickets
+                        </div>
+
+                        <div>
+                            <img
+                                class="mb-5"
+                                src="/assets/icon-checkout.svg"
+                                alt="Checkout icon"
+                            />
+                            <span class="text-white">checkout</span> - buy as a
+                            company to change the VAT calculation
+                        </div>
+
+                        <div>
+                            <img
+                                class="mb-5"
+                                src="/assets/icon-payments.svg"
+                                alt="Payments icon"
+                            />
+                            integrated
+                            <span class="text-white">TPay payments</span>
+                            (Mollie or Stripe are also planned)
+                        </div>
+
+                        <div>
+                            <img
+                                class="mb-5"
+                                src="/assets/icon-email.svg"
+                                alt="Email icon"
+                            />
+                            integrated mailing app
+                            <span class="text-white">Email Labs</span> to keep
+                            attendees notified
+                        </div>
+
+                        <div>
+                            <img
+                                class="mb-5"
+                                src="/assets/icon-send.svg"
+                                alt="Send icon"
+                            />
+                            possible
+                            <span class="text-white">bulk send and export</span>
+                        </div>
+
+                        <div>
+                            <img
+                                class="mb-5"
+                                src="/assets/icon-qr.svg"
+                                alt="QR icon"
+                            />
+                            <span class="text-white">QR code scanner</span> -
+                            yes, you can log in via the mobile browser and scan
+                            your attendees’ tickets!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto md:max-w-[55rem] px-8 md:px-0">
+            <div class="md:text-2xl text-center md:leading-relaxed mb-20">
+                <div class="mb-8 opacity-50">
+                    <img
+                        src="/assets/phpers-logo.png"
+                        alt="PHPers"
+                        class="mx-auto"
+                    />
+                </div>
+                <span class="custom-gradient-text">
+                    See the first implementation
+                </span>
+                <div>The biggest PHP conference in Poland</div>
+                <div>(almost 1000 sold tickets in 2024!)</div>
+            </div>
+
+            <div class="md:text-2xl text-center md:leading-relaxed mb-20">
+                <div class="mb-2">
+                    How can I pay for this unearthly experience?
+                </div>
+                <div class="text-zinc-500">
+                    Well, we provide a 2-week-long trial, and then charge a
+                    fixed price on a monthly, yearly, or lifetime basis with no
+                    fee per sold ticket - cheaper than all competition!
+                </div>
+            </div>
+
+            <div class="text-2xl text-center mb-20" id="contact">
+                <div class="mb-6">But first</div>
+                <div
+                    class="text-4xl md:text-5xl xl:text-6xl font-head font-bold custom-gradient-text mb-12"
+                >
+                    Meet the alien and join Elliot’s early adopter newsletter
+                    list
+                </div>
+                <div>
+                    <iframe
+                        data-tally-src="https://tally.so/embed/mVYyAj?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                        loading="lazy"
+                        width="100%"
+                        height="313"
+                        frameborder="0"
+                        marginheight="0"
+                        marginwidth="0"
+                        title="Elliot"
+                    ></iframe>
+                    <script>
+                        var d = document,
+                            w = "https://tally.so/widgets/embed.js",
+                            v = function () {
+                                "undefined" != typeof Tally
+                                    ? Tally.loadEmbeds()
+                                    : d
+                                          .querySelectorAll(
+                                              "iframe[data-tally-src]:not([src])",
+                                          )
+                                          .forEach(function (e) {
+                                              e.src = e.dataset.tallySrc;
+                                          });
+                            };
+                        if ("undefined" != typeof Tally) v();
+                        else if (
+                            d.querySelector('script[src="' + w + '"]') == null
+                        ) {
+                            var s = d.createElement("script");
+                            (s.src = w),
+                                (s.onload = v),
+                                (s.onerror = v),
+                                d.body.appendChild(s);
+                        }
+                    </script>
+                </div>
+            </div>
+
+            <div class="text-center py-24">
+                © Copyright 2024 * Made with 💛 in Łódź
+            </div>
+        </div>
+    </body>
+</html>
